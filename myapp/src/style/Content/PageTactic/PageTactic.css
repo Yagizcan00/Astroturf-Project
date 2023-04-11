@@ -1,0 +1,53 @@
+.pageTactic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 80vw;
+}
+
+.pageTactic .filterMenu {
+    height: 85vh;
+    width: 25vw;
+
+    background-color: rgb(0, 190, 0);
+
+    margin-right: 10vw;
+}
+
+.pageTactic .tactic {
+    height: 85vh;
+    width: 35vw;
+
+    background-image: url(../../../Image/Pictures/Pitch.jpg);
+    background-size: 35vw 85vh;
+
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+.pageTactic .tactic .playerOne {
+    height: 7vh;
+    width: 4vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+}

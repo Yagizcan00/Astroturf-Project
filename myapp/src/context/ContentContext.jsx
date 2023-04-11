@@ -5,7 +5,12 @@ const ContentContext = createContext()
 
 export const ContentProvider = ({ children }) => {
 
+
     const [check, setCheck] = useState(true)
+
+
+    
+
 
     const values = {
         check,

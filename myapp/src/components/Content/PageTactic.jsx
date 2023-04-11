@@ -2,7 +2,9 @@ import { useContext } from "react";
 
 import ContentContext from "../../context/ContentContext";
 
-import "../../style/Content/PageTactic.css"
+import "../../style/Content/PageTactic/PageTactic.css"
+
+import Draggable, { DraggableCore } from "react-draggable";
 
 
 export default function PageTactic() {
@@ -24,9 +26,26 @@ export default function PageTactic() {
         width: "88vw",
     }
 
+
+    const Draggable = require('react-draggable');
+    const DraggableCore = Draggable.DraggableCore;
+
+
+
     return (
         <div className="pageTactic" style={check ? divStyleInactive : divStyleActive}>
-            <h1>* Taktik ve Dizilişin Yapıldığı Bölüm *</h1>
+
+            <div className="filterMenu">
+
+            </div>
+
+            <div className="tactic">
+                <Draggable>
+                    <div className="playerOne">
+                        <h1>1</h1>
+                    </div>
+                </Draggable>
+            </div>
         </div>
     )
 }
