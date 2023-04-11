@@ -1,0 +1,8 @@
+.pageTactic {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    width: 80vw;
+}
+
