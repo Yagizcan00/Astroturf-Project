@@ -1,15 +1,16 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 
 import ContentContext from "../../context/ContentContext";
 
 import "../../style/Content/PageTactic/PageTactic.css"
+import "../../style/Content/PageTactic/Tactics/Formations.css"
 
-import Draggable, { DraggableCore } from "react-draggable";
+import Draggable from "react-draggable";
 
 
 export default function PageTactic() {
 
-    const { check } = useContext(ContentContext)
+    const { check, activeFormation, checkFormation, setCheckFormation, } = useContext(ContentContext)
 
 
     const divStyleActive = {
@@ -18,7 +19,6 @@ export default function PageTactic() {
 
         width: "80VW",
     }
-
     const divStyleInactive = {
         marginLeft: "12vw",
         transition: "all 0.75s ease",
@@ -27,8 +27,30 @@ export default function PageTactic() {
     }
 
 
-    const Draggable = require('react-draggable');
-    const DraggableCore = Draggable.DraggableCore;
+    const formations = [
+        "5-0-1",
+        "4-0-2",
+        "4-1-1",
+        "3-0-3",
+        "3-1-2",
+        "3-2-1",
+        "2-3-1",
+        "2-2-2",
+        "2-0-4",
+        "1-2-3",
+        "1-3-2",
+        "1-1-4",
+        "1-0-5",
+    ]
+
+
+    const dropdownStyleActive = {
+        display: "flex",
+        flexDirection: "column",
+    }
+    const dropdownStyleInactive = {
+        display: "none"
+    }
 
 
 
@@ -37,14 +59,71 @@ export default function PageTactic() {
 
             <div className="filterMenu">
 
+                <div className="listTactics">
+
+                    <h1>Diziliş :</h1>
+
+                    <button onClick={() => setCheckFormation(!checkFormation)}>{activeFormation}</button>
+
+                    <div className="dropdown" style={checkFormation ? dropdownStyleActive : dropdownStyleInactive}>
+                        {
+                            formations.map((item) => (
+                                <p key={item}>
+                                    {item}
+                                </p>
+                            ))
+                        }
+                    </div>
+                </div>
+
             </div>
 
             <div className="tactic">
+
+                {/* Players */}
+
                 <Draggable>
-                    <div className="playerOne">
+                    <section className="playerOne3-2-1">
                         <h1>1</h1>
-                    </div>
+                    </section>
                 </Draggable>
+
+                <Draggable>
+                    <section className="playerTwo3-2-1">
+                        <h1>2</h1>
+                    </section>
+                </Draggable>
+
+                <Draggable>
+                    <section className="playerThree3-2-1">
+                        <h1>3</h1>
+                    </section>
+                </Draggable>
+
+                <Draggable>
+                    <section className="playerFour3-2-1">
+                        <h1>4</h1>
+                    </section>
+                </Draggable>
+
+                <Draggable>
+                    <section className="playerFive3-2-1">
+                        <h1>5</h1>
+                    </section>
+                </Draggable>
+
+                <Draggable>
+                    <section className="playerSix3-2-1">
+                        <h1>6</h1>
+                    </section>
+                </Draggable>
+
+                <Draggable>
+                    <section className="playerSeven3-2-1">
+                        <h1>7</h1>
+                    </section>
+                </Draggable>
+
             </div>
         </div>
     )

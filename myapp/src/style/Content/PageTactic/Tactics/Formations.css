@@ -1,0 +1,181 @@
+
+.pageTactic .tactic .playerOne3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerThree3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+
+
+.pageTactic .tactic .playerFour3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+
+
+.pageTactic .tactic .playerFive3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 38vh;
+    margin-left: 8.7vw;
+}
+
+
+.pageTactic .tactic .playerSix3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 38vh;
+    margin-left: 18.7vw;
+}
+
+
+.pageTactic .tactic .playerSeven3-2-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+    
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
