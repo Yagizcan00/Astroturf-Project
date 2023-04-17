@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 
 import ContentContext from "../../context/ContentContext";
 
@@ -10,7 +10,7 @@ import Draggable from "react-draggable";
 
 export default function PageTactic() {
 
-    const { check, activeFormation, checkFormation, setCheckFormation, } = useContext(ContentContext)
+    const { check, activeFormation, setActiveFormation, checkFormation, setCheckFormation, } = useContext(ContentContext)
 
 
     const divStyleActive = {
@@ -42,6 +42,12 @@ export default function PageTactic() {
         "1-1-4",
         "1-0-5",
     ]
+    
+
+    const formationClassname = ""
+    const changeFormationClassname = () => {
+        
+    }
 
 
     const dropdownStyleActive = {
@@ -53,27 +59,40 @@ export default function PageTactic() {
     }
 
 
+    function handleFormationClick(formation) {
+        setActiveFormation(formation);
+    }
+
 
     return (
         <div className="pageTactic" style={check ? divStyleInactive : divStyleActive}>
 
             <div className="filterMenu">
 
+                {/* Tactic selection part  */}
                 <div className="listTactics">
 
                     <h1>Diziliş :</h1>
 
-                    <button onClick={() => setCheckFormation(!checkFormation)}>{activeFormation}</button>
+                    <div>
+                        <button onClick={() => setCheckFormation(!checkFormation)}>{activeFormation}</button>
 
-                    <div className="dropdown" style={checkFormation ? dropdownStyleActive : dropdownStyleInactive}>
-                        {
-                            formations.map((item) => (
-                                <p key={item}>
-                                    {item}
-                                </p>
-                            ))
-                        }
+                        <div className="dropdown" style={checkFormation ? dropdownStyleActive : dropdownStyleInactive}>
+                            {
+                                formations.map((item) => (
+                                    <p key={item} onClick={() => handleFormationClick(item) & setCheckFormation(!checkFormation)}>
+                                        {item}
+                                    </p>
+                                ))
+                            }
+                        </div>
                     </div>
+
+                </div>
+
+                {/* Player number selection part */}
+                <div>
+                            
                 </div>
 
             </div>
