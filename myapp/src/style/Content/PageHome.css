@@ -4,29 +4,32 @@
     align-items: center;
 
     height: 100vh;
-    width: 80vw;
+    width: 800px;
 }
 
 .pageHome h1 {
-    height: 10vh;
+    height: 100px;
 
     display: flex;
     align-items: center;
 }
 
 .pageHome .contentHome {
-    width: 70vw;
+    width: 700px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-left: 200px;
 }
 
 .pageHome .contentHome .heading {
-    height: 50vh;
-    width: 50vw;
+    height: 400px;
+    width: 650px;
 
-    margin-top: 7.5vh;
+    margin-top: 60px;
+    margin-left: 100px;
 
     display: flex;
     flex-direction: row;
@@ -40,7 +43,7 @@
     font-family: Gill Sans;
 
     background: url(../../Image/Pictures/HomePage.jpg);
-    background-size: 50vw 50vh;
+    background-size: 650px 400px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 }
@@ -48,8 +51,8 @@
 .pageHome .contentHome .heading h1 {
     color: white;
 
-    margin-top: 35vh;
-    margin-left: 2.5vw;
+    margin-top: 275px;
+    margin-left: 20px;
 }
 
 
@@ -62,6 +65,7 @@
 /* Cards Style properties  */
 /* ----- */
 
+
 /* ONE */
 .pageHome .contentHome .one {
     display: flex;
@@ -69,28 +73,27 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
-    margin-right: 5vw;
+    margin-left: 50px;
 }
-
 .pageHome .contentHome .one img {
-    height: 40vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-right: -15vw;
+    margin-right: -150px;
+    margin-left: 40px;
 }
-
 .pageHome .contentHome .one p {
-    height: 35vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
-    font-size: 160%;
+    font-size: 170%;
     font-family: Gill Sans;
     font-weight: 700;
 
@@ -99,8 +102,9 @@
     display: flex;
     align-items: center;
 
-    margin-left: -7.5vw;
+    margin-left: -40px;
 }
+
 
 
 /* TWO */
@@ -110,27 +114,26 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
-    margin-left: 10vw;
+    margin-left: 200px;
+    margin-top: 10px;
 }
-
 .pageHome .contentHome .two img {
-    height: 40vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-left: -12.5vw;
-    margin-right: 2.5vw;
+    margin-left: -120px;
+    margin-right: 50px;
 }
-
 .pageHome .contentHome .two p {
-    height: 35vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     font-size: 150%;
     font-family: Gill Sans;
@@ -141,8 +144,9 @@
     display: flex;
     align-items: center;
 
-    margin-right: -5vw;
+    margin-right: -70px;
 }
+
 
 
 /* THREE */
@@ -152,27 +156,25 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
-    margin-right: 15vw;
+    margin-top: 10px;
 }
-
 .pageHome .contentHome .three img {
-    height: 37.5vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-right: -15vw;
-    margin-left: 2.5vw;
+    margin-right: -160px;
+    margin-left: 40px;
 }
-
 .pageHome .contentHome .three p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 160%;
     font-family: Gill Sans;
@@ -182,7 +184,10 @@
 
     display: flex;
     align-items: center;
+
+    margin-right: 10px;
 }
+
 
 
 /* FOUR */
@@ -192,28 +197,27 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
-    margin-left: 10vw;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-
 .pageHome .contentHome .four img {
-    height: 40vh;
-    width: 32.5vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0); 
 
-    margin-left: -10vw;
+    margin-right: 10px;
 }
-
 .pageHome .contentHome .four p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
-    font-size: 170%;
+    font-size: 150%;
     font-family: Gill Sans;
     font-weight: 700;
 
@@ -222,9 +226,10 @@
     display: flex;
     align-items: center;
 
-    margin-right: -5vw;
-    margin-left: 2.5vw;
+    margin-right: -150px;
+    margin-left: 40px;
 }
+
 
 
 /* FIVE */
@@ -234,26 +239,22 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-right: 10vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .five img {
-    height: 42.5vh;
-    width: 25vw;
+    height: 300px;
+    width: 350px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-right: -10vw;
+    margin-right: -150px;
 }
-
 .pageHome .contentHome .five p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 170%;
     font-family: Gill Sans;
@@ -264,8 +265,9 @@
     display: flex;
     align-items: center;
 
-    margin-right: -2.5vw;
+    margin-right: 50px;
 }
+
 
 
 /* SIX */
@@ -275,27 +277,22 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-left: 10vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .six img {
-    height: 40vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-left: -10vw;
-    margin-right: 2.5vw;
+    margin-right: 60px;
 }
-
 .pageHome .contentHome .six p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 150%;
     font-family: Gill Sans;
@@ -306,9 +303,9 @@
     display: flex;
     align-items: center;
 
-    margin-right: -5vw;
-    margin-left: 0vw;
+    margin-right: -150px;
 }
+
 
 
 /* SEVEN */
@@ -318,29 +315,24 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-right: 10vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .seven img {
-    height: 37.5vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-right: -12.5vw;
-    margin-left: 2.5vw;
+    margin-right: -170px;
 }
-
 .pageHome .contentHome .seven p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
-    font-size: 160%;
+    font-size: 150%;
     font-family: Gill Sans;
     font-weight: 700;
 
@@ -348,7 +340,10 @@
 
     display: flex;
     align-items: center;
+
+    margin-right: 50px;
 }
+
 
 
 /* EIGHT */
@@ -358,27 +353,22 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-left: 15vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .eight img {
-    height: 42.5vh;
-    width: 27.5vw;
+    height: 300px;
+    width: 350px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-left: -17.5vw;
-    margin-right: 2.5vw;
+    margin-right: 50px;
 }
-
 .pageHome .contentHome .eight p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 150%;
     font-family: Gill Sans;
@@ -389,8 +379,10 @@
     display: flex;
     align-items: center;
 
-    margin-right: -5vw;
+    margin-right: -250px;
+    margin-left: 70px;
 }
+
 
 
 /* NINE */
@@ -400,27 +392,23 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-right: 15vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .nine img {
-    height: 37.5vh;
-    width: 35vw;
+    height: 300px;
+    width: 450px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-right: -12.5vw;
-    margin-left: 2.5vw;
+    margin-right: -200px;
+    margin-left: 50px;
 }
-
 .pageHome .contentHome .nine p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 160%;
     font-family: Gill Sans;
@@ -431,8 +419,9 @@
     display: flex;
     align-items: center;
 
-    margin-left: 5vw;
+    
 }
+
 
 
 /* TEN */
@@ -442,27 +431,22 @@
     justify-content: center;
     align-items: center;
 
-    height: 45vh;
-    width: 60vw;
-
-    margin-left: 15vw;
+    height: 350px;
+    width: 800px;
 }
-
 .pageHome .contentHome .ten img {
-    height: 50vh;
-    width: 22.5vw;
+    height: 350px;
+    width: 300px;
 
     border-radius: 5%;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    margin-left: -17.5vw;
-    margin-right: 2.5vw;
+    margin-right: 200px;
 }
-
 .pageHome .contentHome .ten p {
-    height: 35vh;
-    width: 35vw;
+    height: 350px;
+    width: 450px;
 
     font-size: 150%;
     font-family: Gill Sans;
@@ -473,8 +457,10 @@
     display: flex;
     align-items: center;
 
-    margin-right: -5vw;
+    margin-right: -300px;    
 }
+
+
 
 /* ELEVEN */
 .pageHome .contentHome .eleven {
@@ -483,15 +469,16 @@
     justify-content: center;
     align-items: center;
 
-    height: 90vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
-    margin-top: 5vh;
+    margin-top: 250px;
+    margin-right: -200px;
+    margin-bottom: 200px;
 }
-
 .pageHome .contentHome .eleven img {
-    height: 65vh;
-    width: 52.5vw;
+    height: 600px;
+    width: 800px;
 
     border-radius: 5%;
 
@@ -499,10 +486,9 @@
 
     
 }
-
 .pageHome .contentHome .eleven p {
-    height: 20vh;
-    width: 60vw;
+    height: 350px;
+    width: 800px;
 
     font-size: 200%;
     font-family: Gill Sans;

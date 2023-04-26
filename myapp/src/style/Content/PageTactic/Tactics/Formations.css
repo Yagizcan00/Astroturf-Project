@@ -1,4 +1,6 @@
-
+/* *********************** */
+/* 3-2-1 */
+/* *********************** */
 .pageTactic .tactic .playerOne3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -8,7 +10,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -21,12 +23,10 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 71.5vh;
     margin-left: 13.5vw;
 }
-
-
 .pageTactic .tactic .playerTwo3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -36,7 +36,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -49,12 +49,10 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 58vh;
     margin-left: 13.5vw;
 }
-
-
 .pageTactic .tactic .playerThree3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -64,7 +62,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -77,12 +75,10 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 50vh;
     margin-left: 4vw;
 }
-
-
 .pageTactic .tactic .playerFour3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -92,7 +88,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -109,8 +105,6 @@
     margin-top: 50vh;
     margin-left: 23vw;
 }
-
-
 .pageTactic .tactic .playerFive3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -120,7 +114,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -133,12 +127,10 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 38vh;
-    margin-left: 8.7vw;
+    margin-left: 8.5vw;
 }
-
-
 .pageTactic .tactic .playerSix3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -148,7 +140,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -161,12 +153,10 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 38vh;
-    margin-left: 18.7vw;
+    margin-left: 18.2vw;
 }
-
-
 .pageTactic .tactic .playerSeven3-2-1 {
     height: 6vh;
     width: 3.5vw;
@@ -176,7 +166,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 
-    background: linear-gradient(90deg, rgb(160, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -189,7 +179,2345 @@
     cursor: move;
 
     position: absolute;
-    
+
     margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 5-0-1 */
+/* *********************** */
+.pageTactic .tactic .playerOne5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerTwo5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerThree5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 8vw;
+}
+.pageTactic .tactic .playerFour5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 19vw;
+}
+.pageTactic .tactic .playerFive5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+.pageTactic .tactic .playerSix5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+.pageTactic .tactic .playerSeven5-0-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 4-0-2 */
+/* *********************** */
+.pageTactic .tactic .playerOne4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerTwo4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 9.5vw;
+}
+.pageTactic .tactic .playerThree4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 17.5vw;
+}
+.pageTactic .tactic .playerFour4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+.pageTactic .tactic .playerFive4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+.pageTactic .tactic .playerSix4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 9.5vw;
+}
+.pageTactic .tactic .playerSeven4-0-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 17.5vw;
+}
+
+
+
+/* *********************** */
+/* 4-1-1 */
+/* *********************** */
+.pageTactic .tactic .playerOne4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerTwo4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 10vw;
+}
+.pageTactic .tactic .playerThree4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 17vw;
+}
+.pageTactic .tactic .playerFour4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+.pageTactic .tactic .playerFive4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+.pageTactic .tactic .playerSix4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 38vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerSeven4-1-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 3-0-3 */
+/* *********************** */
+.pageTactic .tactic .playerOne3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerTwo3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerThree3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+.pageTactic .tactic .playerFour3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+.pageTactic .tactic .playerFive3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 6vw;
+}
+.pageTactic .tactic .playerSix3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 21vw;
+}
+.pageTactic .tactic .playerSeven3-0-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 3-1-2 */
+/* *********************** */
+.pageTactic .tactic .playerOne3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerTwo3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerThree3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 4vw;
+}
+.pageTactic .tactic .playerFour3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-left: 23vw;
+}
+.pageTactic .tactic .playerFive3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 38vh;
+    margin-left: 13.5vw;
+}
+.pageTactic .tactic .playerSix3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 9.5vw;
+}
+.pageTactic .tactic .playerSeven3-1-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 17.5vw;
+}
+
+
+
+/* *********************** */
+/* 2-3-1 */
+/* *********************** */
+.pageTactic .tactic .playerOne2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 9.5vw;
+}
+
+
+.pageTactic .tactic .playerThree2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 17.5vw;
+}
+
+
+.pageTactic .tactic .playerFour2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 4vw;
+}
+
+
+.pageTactic .tactic .playerFive2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerSix2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 23vw;
+}
+
+
+.pageTactic .tactic .playerSeven2-3-1 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 2-2-2 */
+/* *********************** */
+.pageTactic .tactic .playerOne2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 9vw;
+}
+
+
+.pageTactic .tactic .playerThree2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 18vw;
+}
+
+
+.pageTactic .tactic .playerFour2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 4.5vw;
+}
+
+
+.pageTactic .tactic .playerFive2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 22.5vw;
+}
+
+
+.pageTactic .tactic .playerSix2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 9vw;
+}
+
+
+.pageTactic .tactic .playerSeven2-2-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 18vw;
+}
+
+
+
+/* *********************** */
+/* 2-0-4 */
+/* *********************** */
+.pageTactic .tactic .playerOne2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 9vw;
+}
+
+
+.pageTactic .tactic .playerThree2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 18vw;
+}
+
+
+.pageTactic .tactic .playerFour2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 4vw;
+}
+
+
+.pageTactic .tactic .playerFive2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 23vw;
+}
+
+
+.pageTactic .tactic .playerSix2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 10vw;
+}
+
+
+.pageTactic .tactic .playerSeven2-0-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 17vw;
+}
+
+
+
+/* *********************** */
+/* 1-2-3 */
+/* *********************** */
+.pageTactic .tactic .playerOne1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerThree1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 43vh;
+    margin-left: 8.2vw;
+}
+
+
+.pageTactic .tactic .playerFour1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 43vh;
+    margin-left: 18.5vw;
+}
+
+
+.pageTactic .tactic .playerFive1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 5vw;
+}
+
+
+.pageTactic .tactic .playerSix1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 22vw;
+}
+
+
+.pageTactic .tactic .playerSeven1-2-3 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 13.5vw;
+}
+
+
+
+/* *********************** */
+/* 1-3-2 */
+/* *********************** */
+.pageTactic .tactic .playerOne1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerThree1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 5vw;
+}
+
+
+.pageTactic .tactic .playerFour1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerFive1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 22vw;
+}
+
+
+.pageTactic .tactic .playerSix1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 9vw;
+}
+
+
+.pageTactic .tactic .playerSeven1-3-2 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 18vw;
+}
+
+
+
+/* *********************** */
+/* 1-1-4 */
+/* *********************** */
+.pageTactic .tactic .playerOne1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerThree1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerFour1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 4vw;
+}
+
+
+.pageTactic .tactic .playerFive1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 23vw;
+}
+
+
+.pageTactic .tactic .playerSix1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 10vw;
+}
+
+
+.pageTactic .tactic .playerSeven1-1-4 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 17vw;
+}
+
+
+
+/* *********************** */
+/* 1-0-5 */
+/* *********************** */
+.pageTactic .tactic .playerOne1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 71.5vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerTwo1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 58vh;
+    margin-left: 13.5vw;
+}
+
+
+.pageTactic .tactic .playerThree1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 3vw;
+}
+
+
+.pageTactic .tactic .playerFour1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 27vh;
+    margin-left: 24vw;
+}
+
+
+.pageTactic .tactic .playerFive1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 8vw;
+}
+
+
+.pageTactic .tactic .playerSix1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: linear-gradient(90deg, rgb(200, 0, 0) 50%, rgb(255, 255, 255) 50%);
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 23vh;
+    margin-left: 19vw;
+}
+
+
+.pageTactic .tactic .playerSeven1-0-5 {
+    height: 6vh;
+    width: 3.5vw;
+
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: move;
+
+    position: absolute;
+
+    margin-top: 20vh;
     margin-left: 13.5vw;
 }

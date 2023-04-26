@@ -7,14 +7,12 @@
     width: 80vw;
 }
 
-
 .pageTactic .filterMenu {
     height: 85vh;
     width: 25vw;
 
     margin-right: 10vw;
 }
-
 
 .pageTactic .tactic {
     height: 85vh;
@@ -31,6 +29,9 @@
 }
 
 
+/* *********************** */
+/* Tactic List */
+/* *********************** */
 .pageTactic .filterMenu .listTactics {
     display: flex;
     flex-direction: row;
@@ -39,7 +40,6 @@
 
     color: rgb(0, 100, 0);
 }
-
 
 .pageTactic .filterMenu .listTactics button {
     font-size: 150%;
@@ -63,14 +63,12 @@
     font-family: Gill Sans;
 }
 
-
-.pageTactic .filterMenu .listTactics .dropdown {
+.pageTactic .filterMenu .listTactics .dropdownTactics {
     width: 10vw;
     height: auto;
 }
 
-
-.pageTactic .filterMenu .listTactics .dropdown p {
+.pageTactic .filterMenu .listTactics .dropdownTactics p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +78,121 @@
     width: 6vw;
 
     margin-left: 1.6vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    border-style: solid;
+    border-radius: 33px;
+    border-color: transparent;
+
+    background-color: rgb(0, 240, 0);
+
+    color: rgb(0, 100, 0);
+
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+
+    margin-top: 0.5vh;
+
+    font-size: 125%;
+}
+
+
+/* *********************** */
+/* Color List */
+/* *********************** */
+.pageTactic .filterMenu .listColors {
+    display: flex;
+    flex-direction: row;
+
+    font-family: Gill Sans;
+
+    color: rgb(0, 100, 0);
+}
+
+.pageTactic .filterMenu .listColors button {
+    font-size: 140%;
+
+    width: 6vw;
+    height: 5vh;
+
+    margin-left: 1vw;
+    margin-top: 2.4vh;
+
+    border-radius: 33px;
+
+    background-color: rgb(0, 240, 0);
+
+    color: rgb(0, 100, 0);
+
+    border-color: transparent;
+    border-style: solid;
+
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+    font-family: Gill Sans;
+    font-weight: 600;
+}
+
+.pageTactic .filterMenu .colorOne {
+    height: auto;
+    width: 7vw;
+}
+
+.pageTactic .filterMenu .listColors .dropdownColorOne {
+    width: 10vw;
+    height: auto;
+}
+
+.pageTactic .filterMenu .listColors .dropdownColorOne p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 5vh;
+    width: 6vw;
+
+    margin-left: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    border-style: solid;
+    border-radius: 33px;
+    border-color: transparent;
+
+    background-color: rgb(0, 240, 0);
+
+    color: rgb(0, 100, 0);
+
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+
+    margin-top: 0.5vh;
+
+    font-size: 125%;
+}
+
+.pageTactic .filterMenu .colorTwo {
+    height: auto;
+    width: 7vw;
+}
+
+.pageTactic .filterMenu .listColors .dropdownColorTwo {
+    width: 10vw;
+    height: auto;
+}
+
+.pageTactic .filterMenu .listColors .dropdownColorTwo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 5vh;
+    width: 6vw;
+
+    margin-left: 1vw;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
