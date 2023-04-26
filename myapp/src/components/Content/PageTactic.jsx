@@ -62,6 +62,8 @@ export default function PageTactic() {
     }
 
 
+
+
     // Formations array.
     const formations = [
         "5-0-1",
@@ -221,7 +223,7 @@ export default function PageTactic() {
                 {/* Tactic selection part  */}
                 <div className="listTactics">
 
-                    <h1>Diziliş :</h1>
+                    <h1>Diziliş:</h1>
 
                     <div>
                         <button onClick={() => setCheckFormation(!checkFormation)}>{activeFormation}</button>
@@ -242,7 +244,7 @@ export default function PageTactic() {
                 {/* Player color selection part */}
                 <div className="listColors">
 
-                    <h1>Renkler :</h1>
+                    <h1>Renkler:</h1>
 
                     <div className="colorOne">
                         <button onClick={() => setCheckColorOne(!checkColorOne)} style={{ backgroundColor: backgroundColorOne, color: textColorOne }}>{colorOne}</button>
@@ -250,7 +252,7 @@ export default function PageTactic() {
                         <div className="dropdownColorOne" style={checkColorOne ? dropdownStyleActive : dropdownStyleInactive}>
                             {
                                 colors.map((item) => (
-                                    <p key={item} onClick={() => handleColorOneClick(item) & setCheckColorOne(!checkColorOne)}>
+                                    <p key={item} style={{ backgroundColor: `${backgroundColorOne}`, color: `${textColorOne}` }} onClick={() => handleColorOneClick(item) & setCheckColorOne(!checkColorOne)}>
                                         {item}
                                     </p>
                                 ))
@@ -264,7 +266,7 @@ export default function PageTactic() {
                         <div className="dropdownColorTwo" style={checkColorTwo ? dropdownStyleActive : dropdownStyleInactive}>
                             {
                                 colors.map((item) => (
-                                    <p key={item} onClick={() => handleColorTwoClick(item) & setCheckColorTwo(!checkColorTwo)}>
+                                    <p key={item} style={{ backgroundColor: `${backgroundColorTwo}`, color: `${textColorTwo}` }} onClick={() => handleColorTwoClick(item) & setCheckColorTwo(!checkColorTwo)}>
                                         {item}
                                     </p>
                                 ))
