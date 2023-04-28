@@ -26,34 +26,26 @@ export const ContentProvider = ({ children }) => {
 
     const [checkColorTwo, setCheckColorTwo] = useState(false)
 
-    const [backgroundColorOne, setBackgroundColorOne] = useState("rgb(200, 0, 0)")
+
+    const [backgroundColorOne, setBackgroundColorOne] = useState("rgb(230, 0, 0)")
     const [backgroundColorTwo, setBackgroundColorTwo] = useState("White")
     const [textColorOne, setTextColorOne] = useState("white")
     const [textColorTwo, setTextColorTwo] = useState("black")
 
+
+    
     const values = {
-        check,
-        setCheck,
-        activeFormation,
-        setActiveFormation,
-        checkFormation,
-        setCheckFormation,
-        colorOne,
-        setColorOne,
-        colorTwo,
-        setColorTwo,
-        checkColorOne,
-        setCheckColorOne,
-        checkColorTwo,
-        setCheckColorTwo,
-        backgroundColorOne,
-        setBackgroundColorOne,
-        backgroundColorTwo,
-        setBackgroundColorTwo,
-        textColorOne,
-        setTextColorOne,
-        textColorTwo,
-        setTextColorTwo,
+        check, setCheck,
+        activeFormation, setActiveFormation,
+        checkFormation, setCheckFormation,
+        colorOne, setColorOne,
+        colorTwo, setColorTwo,
+        checkColorOne, setCheckColorOne,
+        checkColorTwo, setCheckColorTwo,
+        backgroundColorOne, setBackgroundColorOne,
+        backgroundColorTwo, setBackgroundColorTwo,
+        textColorOne, setTextColorOne,
+        textColorTwo, setTextColorTwo,
     }
 
     return <ContentContext.Provider value={values}> {children} </ContentContext.Provider>

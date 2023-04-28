@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React, { useContext, createRef } from "react";
+import { useScreenshot, createFileName } from 'use-react-screenshot'
 
 import ContentContext from "../../context/ContentContext";
 
@@ -11,29 +12,21 @@ import Draggable from "react-draggable";
 export default function PageTactic() {
 
 
+
+
     // States coming from Context file.
     const {
         check,
-        activeFormation,
-        setActiveFormation,
-        checkFormation,
-        setCheckFormation,
-        colorOne,
-        setColorOne,
-        colorTwo,
-        setColorTwo,
-        checkColorOne,
-        setCheckColorOne,
-        checkColorTwo,
-        setCheckColorTwo,
-        backgroundColorOne,
-        setBackgroundColorOne,
-        backgroundColorTwo,
-        setBackgroundColorTwo,
-        textColorOne,
-        setTextColorOne,
-        textColorTwo,
-        setTextColorTwo,
+        activeFormation, setActiveFormation,
+        checkFormation, setCheckFormation,
+        colorOne, setColorOne,
+        colorTwo, setColorTwo,
+        checkColorOne, setCheckColorOne,
+        checkColorTwo, setCheckColorTwo,
+        backgroundColorOne, setBackgroundColorOne,
+        backgroundColorTwo, setBackgroundColorTwo,
+        textColorOne, setTextColorOne,
+        textColorTwo, setTextColorTwo,
     } = useContext(ContentContext)
 
 
@@ -90,7 +83,9 @@ export default function PageTactic() {
 
     // Color array.
     const colors = [
+        "Altın",
         "Beyaz",
+        "Bordo",
         "Gri",
         "Kırmızı",
         "Mavi",
@@ -117,7 +112,7 @@ export default function PageTactic() {
 
         } else if (colorOne === "Kırmızı") {
 
-            setBackgroundColorOne("rgb(200, 0, 0)")
+            setBackgroundColorOne("rgb(230, 0, 0)")
             setTextColorOne("white")
 
         } else if (colorOne === "Mavi") {
@@ -155,6 +150,16 @@ export default function PageTactic() {
             setBackgroundColorOne("green")
             setTextColorOne("white")
 
+        } else if (colorOne === "Bordo") {
+
+            setBackgroundColorOne("rgb(160, 0, 0)")
+            setTextColorOne("white")
+
+        } else if (colorOne === "Altın") {
+
+            setBackgroundColorOne("#AF8700")
+            setTextColorOne("white")
+
         }
     }
     function handleColorTwoClick(colorTwo) {
@@ -172,7 +177,7 @@ export default function PageTactic() {
 
         } else if (colorTwo === "Kırmızı") {
 
-            setBackgroundColorTwo("red")
+            setBackgroundColorTwo("rgb(230, 0, 0)")
             setTextColorTwo("white")
 
         } else if (colorTwo === "Mavi") {
@@ -210,8 +215,41 @@ export default function PageTactic() {
             setBackgroundColorTwo("green")
             setTextColorTwo("white")
 
+        } else if (colorTwo === "Bordo") {
+
+            setBackgroundColorTwo("rgb(160, 0, 0)")
+            setTextColorTwo("white")
+
+        } else if (colorTwo === "Altın") {
+
+            setBackgroundColorTwo("#AF8700")
+            setTextColorTwo("white")
+
         }
     }
+
+
+
+
+    const numberColor = (colorOne === "Siyah" || colorTwo === "Siyah") ? "rgb(80,80,80)" : "black"
+    const downloadButtonColor = colorOne === "Siyah" ? "rgb(80,80,80)" : "white"
+
+
+
+    // Download the div's screenshot part
+    const ref = createRef(null);
+    const [image, takeScreenShot] = useScreenshot({
+        type: "image/jpeg",
+        quality: 1.0
+    });
+    const download = (image, { name = "img", extension = "jpg" } = {}) => {
+        const a = document.createElement("a");
+        a.href = image;
+        a.download = createFileName(extension, name);
+        a.click();
+    };
+    const downloadScreenshot = () => takeScreenShot(ref.current).then(download);
+
 
 
 
@@ -277,53 +315,95 @@ export default function PageTactic() {
 
             </div>
 
-            <div className="tactic">
+            <div name="tactic screen part">
+                <div className="tactic" ref={ref}>
 
-                {/* Players */}
+                    {/* Players */}
 
-                <Draggable>
-                    <section className={"playerOne" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>1</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="1">
+                        <section className={"playerOne" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>1</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-1" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerTwo" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>2</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="2">
+                        <section className={"playerTwo" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>2</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-2" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerThree" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>3</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="3">
+                        <section className={"playerThree" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>3</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-3" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerFour" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>4</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="4">
+                        <section className={"playerFour" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>4</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-4" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerFive" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>5</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="5">
+                        <section className={"playerFive" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>5</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-5" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerSix" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>6</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="6">
+                        <section className={"playerSix" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>6</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-6" />
+                            </section>
+                        </section>
+                    </Draggable>
 
-                <Draggable>
-                    <section className={"playerSeven" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)` }}>
-                        <h1>7</h1>
-                    </section>
-                </Draggable>
+                    <Draggable id="7">
+                        <section className={"playerSeven" + activeFormation} style={{ background: `linear-gradient(90deg, ${backgroundColorOne} 50%, ${backgroundColorTwo} 50%)`, color: numberColor }}>
+                            <section>
+                                <h1>7</h1>
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Oyuncu-7" />
+                            </section>
+                        </section>
+                    </Draggable>
 
+                </div>
+
+                <div className="downloadButton">
+                    <button style={{ backgroundColor: backgroundColorOne, color: downloadButtonColor }} onClick={downloadScreenshot}>Taktiği indir</button>
+                </div>
             </div>
+
         </div>
     )
 }
