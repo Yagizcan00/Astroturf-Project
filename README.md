@@ -2,6 +2,8 @@
 
 -> This project is not done yet !!!
 
+-> In this project I used this properties: "react-router-dom, use-react-screenshot, react-draggable, Context, useState, Ref"
+
 <img width="1440" alt="Ekran Resmi 2023-05-02 10 30 16" src="https://user-images.githubusercontent.com/85365132/235607890-d6fd4160-1f73-4ec0-917e-beb6970c9ab9.png">
 
 <img width="1440" alt="Ekran Resmi 2023-05-02 10 30 25" src="https://user-images.githubusercontent.com/85365132/235607912-c0ce8c7e-3e6a-4ab6-88a7-db6877991344.png">
