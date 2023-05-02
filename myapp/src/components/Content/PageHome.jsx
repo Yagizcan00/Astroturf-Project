@@ -47,7 +47,7 @@ export default function PageHome() {
                 </div>
 
                 <div className="one">
-                    <p>Şu anda yana döne oynayacak 12. adamı aradığımız efsane bir spordur.</p>
+                    <p>Şu anda yana döne oynayacak 14. adamı aradığımız efsane bir spordur.</p>
                     <img src={One} alt="Picture One" />
                 </div>
 

@@ -27,6 +27,7 @@ export default function PageInformation() {
     return (
         <div className="pageInformation" style={check ? divStyleInactive : divStyleActive}>
             <h1>* Oyuncuların Listesinin ve Oyuncu Bilgilerinin Bulunduğu Bölüm *</h1>
+            <h1>* Üzerinde Çalışılıyor *</h1>
         </div>
     )
 }

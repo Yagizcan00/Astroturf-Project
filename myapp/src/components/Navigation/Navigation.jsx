@@ -17,28 +17,6 @@ export default function Navigation() {
     const { check, setCheck } = useContext(ContentContext)
 
 
-    const linkStyle = {
-        textDecoration: "none",
-
-        marginLeft: '1vw',
-
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "row",
-
-        transition: "all 0.75s ease",
-
-        fontSize: "110%",
-        fontWeight: "700",
-        fontFamily: "Gill Sans",
-        color: "rgb(0, 90, 0)",
-    };
-
-    const iconStyle = {
-        fontSize: "150%",
-    }
-
-
     return (
         <div className="navigation">
 
@@ -51,16 +29,28 @@ export default function Navigation() {
                 <div className="sectionMenu">
 
                     <div className="menu">
-                        <Link to="/toPageHome" style={linkStyle} > <AiFillHome style={iconStyle} /> <p>&nbsp;&nbsp;Ana Sayfa </p> </Link>
+                        <Link to="/toPageHome" className="link" >
+                            <AiFillHome className="icon" />
+                            <p>Ana Sayfa </p>
+                        </Link>
                     </div>
                     <div className="menu">
-                        <Link to="/PageTactic" style={linkStyle} > <TbSoccerField style={iconStyle} /> <p>&nbsp;&nbsp;Taktik / Diziliş </p> </Link>
+                        <Link to="/PageTactic" className="link" >
+                            <TbSoccerField className="icon" />
+                            <p>Taktik / Diziliş </p>
+                        </Link>
                     </div>
                     <div className="menu">
-                        <Link to="/PageInformation" style={linkStyle} > <RiInformationFill style={iconStyle} /> <p>&nbsp;&nbsp;Oyuncu Bilgileri </p> </Link>
+                        <Link to="/PageInformation" className="link" >
+                            <RiInformationFill className="icon" />
+                            <p>Oyuncu Bilgileri </p>
+                        </Link>
                     </div>
                     <div className="menu">
-                        <Link to="/PageAdd" style={linkStyle} > <MdOutlineAddCircle style={iconStyle} /> <p>&nbsp;&nbsp;Oyuncu Ekleme </p> </Link>
+                        <Link to="/PageAdd" className="link" >
+                            <MdOutlineAddCircle className="icon" />
+                            <p>Oyuncu Ekleme </p>
+                        </Link>
                     </div>
 
                 </div>

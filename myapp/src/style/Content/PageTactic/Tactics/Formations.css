@@ -27,8 +27,8 @@
 }
 
 .pageTactic .tactic .playerOne3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -40,9 +40,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -72,8 +79,8 @@
 }
 
 .pageTactic .tactic .playerTwo3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -85,9 +92,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -117,8 +131,8 @@
 }
 
 .pageTactic .tactic .playerThree3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -130,9 +144,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -162,8 +183,8 @@
 }
 
 .pageTactic .tactic .playerFour3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -175,9 +196,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -207,8 +235,8 @@
 }
 
 .pageTactic .tactic .playerFive3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -220,9 +248,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -252,8 +287,8 @@
 }
 
 .pageTactic .tactic .playerSix3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -265,9 +300,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -297,8 +339,8 @@
 }
 
 .pageTactic .tactic .playerSeven3-2-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -310,9 +352,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -346,8 +395,8 @@
 }
 
 .pageTactic .tactic .playerOne5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -359,9 +408,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -391,8 +447,8 @@
 }
 
 .pageTactic .tactic .playerTwo5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -404,9 +460,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -436,8 +499,8 @@
 }
 
 .pageTactic .tactic .playerThree5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -449,9 +512,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -481,8 +551,8 @@
 }
 
 .pageTactic .tactic .playerFour5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -494,9 +564,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -526,8 +603,8 @@
 }
 
 .pageTactic .tactic .playerFive5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -539,9 +616,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -571,8 +655,8 @@
 }
 
 .pageTactic .tactic .playerSix5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -584,9 +668,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -616,8 +707,8 @@
 }
 
 .pageTactic .tactic .playerSeven5-0-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -629,9 +720,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -665,8 +763,8 @@
 }
 
 .pageTactic .tactic .playerOne4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -678,9 +776,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -710,8 +815,8 @@
 }
 
 .pageTactic .tactic .playerTwo4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -723,9 +828,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -755,8 +867,8 @@
 }
 
 .pageTactic .tactic .playerThree4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -768,9 +880,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -800,8 +919,8 @@
 }
 
 .pageTactic .tactic .playerFour4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -813,9 +932,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -845,8 +971,8 @@
 }
 
 .pageTactic .tactic .playerFive4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -858,9 +984,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -890,8 +1023,8 @@
 }
 
 .pageTactic .tactic .playerSix4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -903,9 +1036,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -935,8 +1075,8 @@
 }
 
 .pageTactic .tactic .playerSeven4-0-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -948,9 +1088,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -984,8 +1131,8 @@
 }
 
 .pageTactic .tactic .playerOne4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -997,9 +1144,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1029,8 +1183,8 @@
 }
 
 .pageTactic .tactic .playerTwo4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1042,9 +1196,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1074,8 +1235,8 @@
 }
 
 .pageTactic .tactic .playerThree4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1087,9 +1248,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1119,8 +1287,8 @@
 }
 
 .pageTactic .tactic .playerFour4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1132,9 +1300,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1164,8 +1339,8 @@
 }
 
 .pageTactic .tactic .playerFive4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1177,9 +1352,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1209,8 +1391,8 @@
 }
 
 .pageTactic .tactic .playerSix4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1222,9 +1404,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1254,8 +1443,8 @@
 }
 
 .pageTactic .tactic .playerSeven4-1-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1267,9 +1456,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1303,8 +1499,8 @@
 }
 
 .pageTactic .tactic .playerOne3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1316,9 +1512,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1348,8 +1551,8 @@
 }
 
 .pageTactic .tactic .playerTwo3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1361,9 +1564,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1393,8 +1603,8 @@
 }
 
 .pageTactic .tactic .playerThree3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1406,9 +1616,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1438,8 +1655,8 @@
 }
 
 .pageTactic .tactic .playerFour3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1451,9 +1668,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1483,8 +1707,8 @@
 }
 
 .pageTactic .tactic .playerFive3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1496,9 +1720,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1528,8 +1759,8 @@
 }
 
 .pageTactic .tactic .playerSix3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1541,9 +1772,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1573,8 +1811,8 @@
 }
 
 .pageTactic .tactic .playerSeven3-0-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1586,9 +1824,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1622,8 +1867,8 @@
 }
 
 .pageTactic .tactic .playerOne3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1635,9 +1880,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1667,8 +1919,8 @@
 }
 
 .pageTactic .tactic .playerTwo3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1680,9 +1932,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1712,8 +1971,8 @@
 }
 
 .pageTactic .tactic .playerThree3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1725,9 +1984,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1757,8 +2023,8 @@
 }
 
 .pageTactic .tactic .playerFour3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1770,9 +2036,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1802,8 +2075,8 @@
 }
 
 .pageTactic .tactic .playerFive3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1815,9 +2088,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1847,8 +2127,8 @@
 }
 
 .pageTactic .tactic .playerSix3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1860,9 +2140,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1892,8 +2179,8 @@
 }
 
 .pageTactic .tactic .playerSeven3-1-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1905,9 +2192,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1941,8 +2235,8 @@
 }
 
 .pageTactic .tactic .playerOne2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -1954,9 +2248,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -1987,8 +2288,8 @@
 }
 
 .pageTactic .tactic .playerTwo2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2000,9 +2301,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2033,8 +2341,8 @@
 }
 
 .pageTactic .tactic .playerThree2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2046,9 +2354,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2078,8 +2393,8 @@
 }
 
 .pageTactic .tactic .playerFour2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2091,9 +2406,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2123,8 +2445,8 @@
 }
 
 .pageTactic .tactic .playerFive2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2136,9 +2458,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2168,8 +2497,8 @@
 }
 
 .pageTactic .tactic .playerSix2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2181,9 +2510,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2213,8 +2549,8 @@
 }
 
 .pageTactic .tactic .playerSeven2-3-1 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2226,9 +2562,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2262,8 +2605,8 @@
 }
 
 .pageTactic .tactic .playerOne2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2275,9 +2618,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2308,8 +2658,8 @@
 }
 
 .pageTactic .tactic .playerTwo2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2321,9 +2671,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2354,8 +2711,8 @@
 }
 
 .pageTactic .tactic .playerThree2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2367,9 +2724,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2399,8 +2763,8 @@
 }
 
 .pageTactic .tactic .playerFour2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2412,9 +2776,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2444,8 +2815,8 @@
 }
 
 .pageTactic .tactic .playerFive2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2457,9 +2828,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2489,8 +2867,8 @@
 }
 
 .pageTactic .tactic .playerSix2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2502,9 +2880,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2534,8 +2919,8 @@
 }
 
 .pageTactic .tactic .playerSeven2-2-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2547,9 +2932,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2583,8 +2975,8 @@
 }
 
 .pageTactic .tactic .playerOne2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2596,9 +2988,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2629,8 +3028,8 @@
 }
 
 .pageTactic .tactic .playerTwo2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2642,9 +3041,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2675,8 +3081,8 @@
 }
 
 .pageTactic .tactic .playerThree2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2688,9 +3094,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2720,8 +3133,8 @@
 }
 
 .pageTactic .tactic .playerFour2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2733,9 +3146,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2765,8 +3185,8 @@
 }
 
 .pageTactic .tactic .playerFive2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2778,9 +3198,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2810,8 +3237,8 @@
 }
 
 .pageTactic .tactic .playerSix2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2823,9 +3250,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2855,8 +3289,8 @@
 }
 
 .pageTactic .tactic .playerSeven2-0-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2868,9 +3302,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2904,8 +3345,8 @@
 }
 
 .pageTactic .tactic .playerOne1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2917,9 +3358,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2949,8 +3397,8 @@
 }
 
 .pageTactic .tactic .playerTwo1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -2962,9 +3410,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -2994,8 +3449,8 @@
 }
 
 .pageTactic .tactic .playerThree1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3007,9 +3462,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3039,8 +3501,8 @@
 }
 
 .pageTactic .tactic .playerFour1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3052,9 +3514,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3084,8 +3553,8 @@
 }
 
 .pageTactic .tactic .playerFive1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3097,9 +3566,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3129,8 +3605,8 @@
 }
 
 .pageTactic .tactic .playerSix1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3142,9 +3618,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3174,8 +3657,8 @@
 }
 
 .pageTactic .tactic .playerSeven1-2-3 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3187,15 +3670,21 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
 
-/* *********************** */
-/* 1-3-2 */
+/* *********************** *55/* 1-3-2 */
 /* *********************** */
 .pageTactic .tactic .playerOne1-3-2 {
     height: 50px;
@@ -3223,8 +3712,8 @@
 }
 
 .pageTactic .tactic .playerOne1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3236,11 +3725,17 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
-}
 
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
+}
 
 .pageTactic .tactic .playerTwo1-3-2 {
     height: 50px;
@@ -3268,8 +3763,8 @@
 }
 
 .pageTactic .tactic .playerTwo1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3281,9 +3776,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3313,8 +3815,8 @@
 }
 
 .pageTactic .tactic .playerThree1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3326,9 +3828,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3358,8 +3867,8 @@
 }
 
 .pageTactic .tactic .playerFour1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3371,9 +3880,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3403,8 +3919,8 @@
 }
 
 .pageTactic .tactic .playerFive1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3416,9 +3932,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3448,8 +3971,8 @@
 }
 
 .pageTactic .tactic .playerSix1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3461,9 +3984,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3493,8 +4023,8 @@
 }
 
 .pageTactic .tactic .playerSeven1-3-2 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3506,9 +4036,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3542,8 +4079,8 @@
 }
 
 .pageTactic .tactic .playerOne1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3555,9 +4092,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3587,8 +4131,8 @@
 }
 
 .pageTactic .tactic .playerTwo1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3600,9 +4144,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3632,8 +4183,8 @@
 }
 
 .pageTactic .tactic .playerThree1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3645,9 +4196,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3677,8 +4235,8 @@
 }
 
 .pageTactic .tactic .playerFour1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3690,9 +4248,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3722,8 +4287,8 @@
 }
 
 .pageTactic .tactic .playerFive1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3735,9 +4300,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3767,8 +4339,8 @@
 }
 
 .pageTactic .tactic .playerSix1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3780,9 +4352,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3812,8 +4391,8 @@
 }
 
 .pageTactic .tactic .playerSeven1-1-4 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3825,9 +4404,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3861,8 +4447,8 @@
 }
 
 .pageTactic .tactic .playerOne1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3874,9 +4460,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3906,8 +4499,8 @@
 }
 
 .pageTactic .tactic .playerTwo1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3919,9 +4512,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3951,8 +4551,8 @@
 }
 
 .pageTactic .tactic .playerThree1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -3964,9 +4564,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -3996,8 +4603,8 @@
 }
 
 .pageTactic .tactic .playerFour1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -4009,9 +4616,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -4042,8 +4656,8 @@
 }
 
 .pageTactic .tactic .playerFive1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -4055,9 +4669,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -4087,8 +4708,8 @@
 }
 
 .pageTactic .tactic .playerSix1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -4100,9 +4721,16 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }
 
 
@@ -4132,8 +4760,8 @@
 }
 
 .pageTactic .tactic .playerSeven1-0-5 input {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
@@ -4145,7 +4773,14 @@
 
     position: absolute;
 
-    margin-left: -45px;
+    margin-left: -65px;
 
     cursor: text;
+
+    border-radius: 33px;
+
+    font-size: 120%;
+    font-weight: 600;
+
+    color: black;
 }

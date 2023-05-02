@@ -27,6 +27,7 @@ export default function PageAdd() {
     return (
         <div className="pageAdd" style={check ? divStyleInactive : divStyleActive}>
             <h1>* Oyuncu Ekleme Bölümü *</h1>
+            <h1>* Üzerinde Çalışılıyor *</h1>
         </div>
     )
 }

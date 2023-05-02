@@ -57,7 +57,13 @@
 
 
 
+@media only screen and (max-widht: 400px) {
 
+    .pageHome {
+        background-color: red;
+    }
+
+}
 
 
 
