@@ -31,13 +31,13 @@ export default function Navigation() {
                     <div className="menu">
                         <Link to="/toPageHome" className="link" >
                             <AiFillHome className="icon" />
-                            <p>Ana Sayfa </p>
+                            <p id="homePage">Ana Sayfa </p>
                         </Link>
                     </div>
                     <div className="menu">
                         <Link to="/PageTactic" className="link" >
                             <TbSoccerField className="icon" />
-                            <p>Taktik / Diziliş </p>
+                            <p id="tacticPage">Taktik & Diziliş </p>
                         </Link>
                     </div>
                     <div className="menu">

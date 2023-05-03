@@ -47,7 +47,7 @@
 }
 
 .navigation .leftMenuActive .sectionMenu p {
-    font-size: 100%;
+    font-size: 22.5px;
 
     transition: all 0.75s ease;
 }
@@ -66,7 +66,7 @@
 }
 
 .navigation .leftMenuActive .sectionMenu .menu .icon {
-    font-size: 150%;
+    font-size: 32.5px;
 
     transition: all 0.75s ease;
 }
@@ -81,7 +81,6 @@
 
     transition: all 0.75s ease;
 
-    font-size: 110%;
     font-weight: 700;
     font-family: "Gill Sans";
     color: rgb(0, 90, 0);
@@ -160,7 +159,7 @@
 
     transition: all 0.75s ease;
 
-    font-size: 110%;
+
     font-weight: 700;
     font-family: "Gill Sans";
 
@@ -168,13 +167,13 @@
 }
 
 .navigation .leftMenuInactive .sectionMenu .menu .icon {
-    font-size: 175%;
+    font-size: 35px;
 
     transition: all 0.75s ease;
 }
 
 .navigation .leftMenuInactive .sectionMenu p {
-    font-size: 0%;
+    font-size: 0px;
 
     transition: all 0.75s ease;
 }
@@ -183,9 +182,11 @@
 /* --- */
 /* Responsive properties */
 /* --- */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
+    /* --- */
     /* Inactive Menu */
+    /* --- */
     .navigation .leftMenuInactive {
         flex-direction: row;
         align-items: baseline;
@@ -208,21 +209,23 @@
         margin-left: 10px;
     }
 
-    .navigation .leftMenuInactive .sectionMenu .menu {    
+    .navigation .leftMenuInactive .sectionMenu .menu {
         height: 60px;
         width: 100px;
 
         margin-left: 20px;
     }
-    
+
     .navigation .leftMenuInactive .sectionMenu p {
         font-size: 0px;
-    
+
         transition: all 0.75s ease;
     }
 
 
+    /* --- */
     /* Active Menu */
+    /* --- */
     .navigation .leftMenuActive {
         height: 90px;
         width: 100vw;
@@ -236,7 +239,7 @@
     }
 
     .navigation .leftMenuActive .sectionMenu {
-        margin-top: 5px;
+        margin-top: 0px;
 
         flex-direction: row;
     }
@@ -244,12 +247,10 @@
     .navigation .leftMenuActive .sectionMenu .menu {
         flex-direction: column;
 
-        height: 90px;
-        width: 100px;
+        height: fit-content;
+        width: fit-content;
 
-        font-size: 15px;
-
-        margin: 0px;
+        margin: 0px 0px 0px 7.5px;
     }
 
     .navigation .leftMenuActive .sectionMenu .menu .link {
@@ -261,16 +262,16 @@
     }
 
     .navigation .leftMenuActive .sectionMenu .menu .link p {
-        font-size: 100%;
-    
+        font-size: 16px;
+
         transition: all 0.75s ease;
 
-        background-color: red;
+        text-align: center;
 
-        width: 80px;
-        height: 40px;
+        width: 70px;
+        height: fit-content;
 
         margin: 5px 0px 0px 0px;
     }
-    
+
 }

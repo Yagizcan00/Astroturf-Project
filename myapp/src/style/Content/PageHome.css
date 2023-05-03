@@ -1,17 +1,13 @@
+/* ----- */
+/* General Page Style  */
+/* ----- */
 .pageHome {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    height: 100vh;
+    height: fit-content;
     width: 800px;
-}
-
-.pageHome h1 {
-    height: 100px;
-
-    display: flex;
-    align-items: center;
 }
 
 .pageHome .contentHome {
@@ -24,6 +20,10 @@
     margin-left: 200px;
 }
 
+
+/* ----- */
+/* Heading with Background-Image Style */
+/* ----- */
 .pageHome .contentHome .heading {
     height: 400px;
     width: 650px;
@@ -37,9 +37,9 @@
 
     background-color: rgb(50, 200, 50);
 
-    border-radius: 5%;
+    border-radius: 33px;
 
-    font-size: 150%;
+    font-size: 25px;
     font-family: Gill Sans;
 
     background: url(../../Image/Pictures/HomePage.jpg);
@@ -51,18 +51,44 @@
 .pageHome .contentHome .heading h1 {
     color: white;
 
-    margin-top: 275px;
-    margin-left: 20px;
+    margin-top: 310px;
+    margin-left: 30px;
 }
 
 
-
-@media only screen and (max-widht: 400px) {
+/* ----- */
+/* Ressponsive Design for Mobile */
+/* ----- */
+@media only screen and (max-width: 420px) {
 
     .pageHome {
-        background-color: red;
+        width: 100vh;
     }
 
+    .pageHome .contentHome {
+        width: fit-content;
+
+        margin-right: 322.5px;
+    }
+
+    .pageHome .contentHome .heading {
+        height: 200px;
+        width: 350px;
+
+        font-size: 15px;
+
+        background-size: 350px 200px;
+
+        margin-top: 125px;
+        margin-right: 110px;
+    }
+
+    .pageHome .contentHome .heading h1 {
+        color: white;
+
+        margin-top: 150px;
+        margin-left: 10px;
+    }
 }
 
 
@@ -70,7 +96,6 @@
 /* ----- */
 /* Cards Style properties  */
 /* ----- */
-
 
 /* ONE */
 .pageHome .contentHome .one {
@@ -84,6 +109,7 @@
 
     margin-left: 50px;
 }
+
 .pageHome .contentHome .one img {
     height: 300px;
     width: 450px;
@@ -95,6 +121,7 @@
     margin-right: -150px;
     margin-left: 40px;
 }
+
 .pageHome .contentHome .one p {
     height: 300px;
     width: 450px;
@@ -126,6 +153,7 @@
     margin-left: 200px;
     margin-top: 10px;
 }
+
 .pageHome .contentHome .two img {
     height: 300px;
     width: 450px;
@@ -137,6 +165,7 @@
     margin-left: -120px;
     margin-right: 50px;
 }
+
 .pageHome .contentHome .two p {
     height: 300px;
     width: 450px;
@@ -167,6 +196,7 @@
 
     margin-top: 10px;
 }
+
 .pageHome .contentHome .three img {
     height: 300px;
     width: 450px;
@@ -178,6 +208,7 @@
     margin-right: -160px;
     margin-left: 40px;
 }
+
 .pageHome .contentHome .three p {
     height: 350px;
     width: 450px;
@@ -209,16 +240,18 @@
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .pageHome .contentHome .four img {
     height: 300px;
     width: 450px;
 
     border-radius: 5%;
 
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0); 
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
     margin-right: 10px;
 }
+
 .pageHome .contentHome .four p {
     height: 350px;
     width: 450px;
@@ -248,6 +281,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .five img {
     height: 300px;
     width: 350px;
@@ -258,6 +292,7 @@
 
     margin-right: -150px;
 }
+
 .pageHome .contentHome .five p {
     height: 350px;
     width: 450px;
@@ -286,6 +321,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .six img {
     height: 300px;
     width: 450px;
@@ -296,6 +332,7 @@
 
     margin-right: 60px;
 }
+
 .pageHome .contentHome .six p {
     height: 350px;
     width: 450px;
@@ -324,6 +361,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .seven img {
     height: 300px;
     width: 450px;
@@ -334,6 +372,7 @@
 
     margin-right: -170px;
 }
+
 .pageHome .contentHome .seven p {
     height: 350px;
     width: 450px;
@@ -362,6 +401,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .eight img {
     height: 300px;
     width: 350px;
@@ -372,6 +412,7 @@
 
     margin-right: 50px;
 }
+
 .pageHome .contentHome .eight p {
     height: 350px;
     width: 450px;
@@ -401,6 +442,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .nine img {
     height: 300px;
     width: 450px;
@@ -412,6 +454,7 @@
     margin-right: -200px;
     margin-left: 50px;
 }
+
 .pageHome .contentHome .nine p {
     height: 350px;
     width: 450px;
@@ -425,7 +468,7 @@
     display: flex;
     align-items: center;
 
-    
+
 }
 
 
@@ -440,6 +483,7 @@
     height: 350px;
     width: 800px;
 }
+
 .pageHome .contentHome .ten img {
     height: 350px;
     width: 300px;
@@ -450,6 +494,7 @@
 
     margin-right: 200px;
 }
+
 .pageHome .contentHome .ten p {
     height: 350px;
     width: 450px;
@@ -463,7 +508,7 @@
     display: flex;
     align-items: center;
 
-    margin-right: -300px;    
+    margin-right: -300px;
 }
 
 
@@ -482,6 +527,7 @@
     margin-right: -200px;
     margin-bottom: 200px;
 }
+
 .pageHome .contentHome .eleven img {
     height: 600px;
     width: 800px;
@@ -490,8 +536,9 @@
 
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
-    
+
 }
+
 .pageHome .contentHome .eleven p {
     height: 350px;
     width: 800px;
@@ -507,4 +554,15 @@
     justify-content: center;
 
     margin-top: -5vh;
+}
+
+
+
+/* ----- */
+/* Ressponsive Cards Design for Mobile */
+/* ----- */
+@media only screen and (max-width: 420px) {
+
+    
+
 }
