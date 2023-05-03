@@ -11,10 +11,10 @@
 
 .pageTactic .tactic {
     height: 700px;
-    width: 435px;
+    width: 450px;
 
     background-image: url(../../../Image/Pictures/Pitch.jpg);
-    background-size: 435px 700px;
+    background-size: 450px 700px;
 
     display: flex;
 
