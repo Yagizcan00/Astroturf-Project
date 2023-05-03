@@ -23,26 +23,14 @@ export default function PageHome() {
     const { check } = useContext(ContentContext)
 
 
-    const divStyleActive = {
-        marginLeft: "20vw",
-        transition: "all 0.75s ease",
-
-        width: "80VW",
-    }
-
-    const divStyleInactive = {
-        marginLeft: "10vw",
-        transition: "all 0.75s ease",
-
-        width: "88vw",
-    }
+    const activeID = check ? "inactiveStyle" : "activeStyle"
 
 
     return (
-        <div className="pageHome" style={check ? divStyleInactive : divStyleActive}>
+        <div className="pageHome" id={activeID} >
             <div className="contentHome">
 
-                <div className="heading" style={{ marginBottom: "5vh" }}>
+                <div className="heading">
                     <h1>Halısaha Nedir ?</h1>
                 </div>
 

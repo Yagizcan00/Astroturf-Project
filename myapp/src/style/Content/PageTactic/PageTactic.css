@@ -2,24 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 100vh;
-    width: 80vw;
 }
 
 .pageTactic .filterMenu {
-    height: 85vh;
-    width: 25vw;
-
-    margin-right: 10vw;
+    height: 800px;
+    width: 550px;
 }
 
 .pageTactic .tactic {
-    height: 85vh;
-    width: 30vw;
+    height: 700px;
+    width: 435px;
 
     background-image: url(../../../Image/Pictures/Pitch.jpg);
-    background-size: 30vw 85vh;
+    background-size: 435px 700px;
 
     display: flex;
 
@@ -28,6 +23,13 @@
     background-color: none;
 }
 
+
+
+@media only screen and (max-width: 420px) {
+    
+   
+
+}
 
 
 
@@ -44,7 +46,7 @@
 }
 
 .pageTactic .filterMenu .listTactics button {
-    font-size: 200%;
+    font-size: 30px;
     width: 100px;
 
     margin-left: 10px;
@@ -72,9 +74,11 @@
 
     overflow-y: scroll;
 }
+
 .pageTactic .filterMenu .listTactics .dropdownTactics::-webkit-scrollbar {
     width: 5px;
 }
+
 .pageTactic .filterMenu .listTactics .dropdownTactics::-webkit-scrollbar-thumb {
     background-color: black;
 }
@@ -102,7 +106,7 @@
 
     box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
 
-    font-size: 175%;
+    font-size: 27.5px;
 }
 
 
@@ -121,7 +125,7 @@
 }
 
 .pageTactic .filterMenu .listColors button {
-    font-size: 180%;
+    font-size: 27.5px;
 
     width: 120px;
 
@@ -150,16 +154,18 @@
 .pageTactic .filterMenu .listColors .dropdownColorOne {
     width: 120px;
     height: 160px;
-    
+
     margin-left: 10px;
 
     overflow-y: scroll;
 
     align-items: center;
 }
+
 .pageTactic .filterMenu .listColors .dropdownColorOne::-webkit-scrollbar {
     width: 5px;
 }
+
 .pageTactic .filterMenu .listColors .dropdownColorOne::-webkit-scrollbar-thumb {
     background-color: black;
 }
@@ -184,7 +190,7 @@
 
     box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
 
-    font-size: 175%;
+    font-size: 27.5px;
 }
 
 .pageTactic .filterMenu .colorTwo {
@@ -201,9 +207,11 @@
 
     margin-left: 10px;
 }
+
 .pageTactic .filterMenu .listColors .dropdownColorTwo::-webkit-scrollbar {
     width: 5px;
 }
+
 .pageTactic .filterMenu .listColors .dropdownColorTwo::-webkit-scrollbar-thumb {
     background-color: black;
 }
@@ -227,7 +235,7 @@
 
     box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
 
-    font-size: 175%;
+    font-size: 27.5px;
 }
 
 
@@ -236,8 +244,8 @@
 /* *********************** */
 /* Download buttton */
 /* *********************** */
-.downloadButton button{
-    font-size: 150%;
+.downloadButton button {
+    font-size: 25px;
     font-weight: 600;
 
     height: 50px;
