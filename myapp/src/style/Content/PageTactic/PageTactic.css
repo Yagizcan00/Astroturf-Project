@@ -38,23 +38,37 @@
 
 @media only screen and (max-width: 420px) {
 
+    .pageTactic {
+        flex-direction: column;
+    }
+
     .pageTactic .filterMenu {
         height: fit-content;
         width: 420px;
     }
 
     .pageTactic .tactic {
-        height: 700px;
-        width: 450px;
+        height: 650px;
+        width: 400px;
 
         background-image: url(../../../Image/Pictures/Pitch.jpg);
-        background-size: 450px 700px;
+        background-size: 400px 650px;
 
         display: flex;
 
         box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
 
         background-color: none;
+
+        margin-top: 20px;
+    }
+
+    #divStyleActive {
+        margin-left: 0px;
+    }
+
+    #divStyleInactive {
+        margin-left: 0px;
     }
 
 }
@@ -137,6 +151,88 @@
     font-size: 27.5px;
 }
 
+
+
+@media only screen and (max-width: 420px) {
+
+    /* *********************** */
+    /* Tactic List */
+    /* *********************** */
+    .pageTactic .filterMenu .listTactics {
+        margin-top: 120px;
+    }
+
+    .pageTactic .filterMenu .listTactics h1 {
+        font-size: 30px;
+
+        margin-left: 10px;
+    }
+
+    .pageTactic .filterMenu .listTactics button {
+        font-size: 27.5px;
+        width: 90px;
+
+        margin-left: 10px;
+        margin-top: 20px;
+
+        border-radius: 33px;
+
+        background-color: rgb(0, 240, 0);
+
+        color: rgb(0, 100, 0);
+
+        border-color: transparent;
+        border-style: solid;
+
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+        font-family: Gill Sans;
+    }
+
+    .pageTactic .filterMenu .listTactics .dropdownTactics {
+        width: 100px;
+        height: 115px;
+
+        margin-left: 5px;
+
+        overflow-y: scroll;
+    }
+
+    .pageTactic .filterMenu .listTactics .dropdownTactics::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .pageTactic .filterMenu .listTactics .dropdownTactics::-webkit-scrollbar-thumb {
+        background-color: black;
+    }
+
+    .pageTactic .filterMenu .listTactics .dropdownTactics p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 70px;
+
+        margin-left: 15px;
+        margin-top: 3px;
+        margin-bottom: 0;
+        margin-right: 0;
+
+        border-style: solid;
+        border-color: transparent;
+        border-radius: 33px;
+
+        background-color: rgb(0, 240, 0);
+
+        color: rgb(0, 100, 0);
+
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+
+        font-size: 25px;
+    }
+
+}
 
 
 
@@ -269,6 +365,148 @@
 
 
 
+@media only screen and (max-width: 420px) {
+
+    /* *********************** */
+    /* Color List */
+    /* *********************** */
+    .pageTactic .filterMenu .listColors {
+        display: flex;
+        flex-direction: row;
+
+        font-family: Gill Sans;
+
+        color: rgb(0, 100, 0);
+    }
+
+    .pageTactic .filterMenu .listColors h1 {
+        font-size: 30px;
+
+        margin-left: 10px;
+    }
+
+    .pageTactic .filterMenu .listColors button {
+        font-size: 25px;
+
+        width: 100px;
+
+        margin-left: 10px;
+        margin-top: 20px;
+
+        border-radius: 33px;
+
+        background-color: rgb(0, 240, 0);
+
+        color: rgb(0, 100, 0);
+
+        border-color: transparent;
+        border-style: solid;
+
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+        font-family: Gill Sans;
+        font-weight: 600;
+    }
+
+
+
+    .pageTactic .filterMenu .colorOne {
+        width: 90px;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorOne {
+        width: 120px;
+        height: 120px;
+
+        margin-left: 0px;
+
+        overflow-y: scroll;
+
+        align-items: center;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorOne::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorOne::-webkit-scrollbar-thumb {
+        background-color: black;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorOne p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 80px;
+
+        margin-left: 10px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+        margin-right: 0px;
+
+        border-style: solid;
+        border-radius: 33px;
+        border-color: transparent;
+
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+
+        font-size: 25px;
+    }
+
+
+
+    .pageTactic .filterMenu .colorTwo {
+        width: 90px;
+
+        margin-left: 25px;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorTwo {
+        width: 120px;
+        height: 120px;
+
+        overflow-y: scroll;
+
+        margin-left: 5px;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorTwo::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorTwo::-webkit-scrollbar-thumb {
+        background-color: black;
+    }
+
+    .pageTactic .filterMenu .listColors .dropdownColorTwo p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 80px;
+
+        margin-left: 15px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+        margin-right: 0px;
+
+        border-style: solid;
+        border-radius: 33px;
+        border-color: transparent;
+
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+
+        font-size: 25px;
+    }
+
+}
+
+
+
+
 /* *********************** */
 /* Download buttton */
 /* *********************** */
@@ -292,4 +530,31 @@
     font-family: Gill Sans;
 
     cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    
+    .downloadButton button {
+        font-size: 25px;
+        font-weight: 600;
+    
+        height: 50px;
+        width: 150px;
+    
+        margin-top: 30px;
+        margin-left: 130px;
+        margin-bottom: 30px;
+    
+        border-radius: 33px;
+    
+        border-color: transparent;
+        border-style: solid;
+    
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    
+        font-family: Gill Sans;
+    
+        cursor: pointer;
+    }
+
 }
