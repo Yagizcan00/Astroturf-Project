@@ -45,7 +45,7 @@ export default function PageHome() {
                 </div>
 
                 <div className="three">
-                    <p>Yaş kaç olursa olsun sizden önceki ekibin maçının bitmesini sahanın kapısının dibinde bekleyip, o zil çalar çalmaz koşa koşa saha dalma hissidir.</p>
+                    <p>Yaş kaç olursa olsun sizden önceki ekibin maçının bitmesini sahanın kapısının dibinde bekleyip, o zil çalar çalmaz koşa koşa sahaya dalma hissidir.</p>
                     <img src={Three} alt="Picture Three" />
                 </div>
 
@@ -65,7 +65,7 @@ export default function PageHome() {
                 </div>
 
                 <div className="seven">
-                    <p>Türkiyede halı saha; sayısı çok olan ama arandığı zaman asla bulunamayan bir olgudur. Mesela 14 kişiyi toplarsınız, maç yapmaya yeltenirsiniz ama hiç bir zaman o saha istediğiniz saatte boş olmaz. O saha bir anda bulunmaz hint kumaşı olur ve maç da yalan olur.</p>
+                    <p>Türkiye'de halı saha; sayısı çok olan ama arandığı zaman asla bulunamayan bir olgudur. Mesela 14 kişiyi toplarsınız, maç yapmaya yeltenirsiniz ama hiç bir zaman o saha istediğiniz saatte boş olmaz. O saha bir anda bulunmaz hint kumaşı olur ve maç da yalan olur.</p>
                     <img src={Seven} alt="Picture Seven" />
                 </div>
 
