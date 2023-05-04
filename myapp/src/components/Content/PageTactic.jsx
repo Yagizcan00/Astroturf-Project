@@ -30,21 +30,9 @@ export default function PageTactic() {
     } = useContext(ContentContext)
 
 
+    const divStyle = check ? "divStyleInactive" : "divStyleActive"
 
 
-    // Active and Inactive div styles.
-    const divStyleActive = {
-        marginLeft: "20vw",
-        transition: "all 0.75s ease",
-
-        width: "80VW",
-    }
-    const divStyleInactive = {
-        marginLeft: "12vw",
-        transition: "all 0.75s ease",
-
-        width: "88vw",
-    }
     // Active or Inactive situation of Dropdown Menu. 
     const dropdownStyleActive = {
         display: "flex",
@@ -254,7 +242,7 @@ export default function PageTactic() {
 
 
     return (
-        <div className="pageTactic" style={check ? divStyleInactive : divStyleActive}>
+        <div className="pageTactic" id={divStyle}>
 
             <div className="filterMenu">
 

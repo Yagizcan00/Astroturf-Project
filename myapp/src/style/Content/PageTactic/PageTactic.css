@@ -23,11 +23,39 @@
     background-color: none;
 }
 
+#divStyleActive {
+    margin-left: 300px;
+
+    transition: all 0.75s ease;
+}
+
+#divStyleInactive {
+    margin-left: 200px;
+
+    transition: all 0.75s ease;
+}
 
 
 @media only screen and (max-width: 420px) {
-    
-   
+
+    .pageTactic .filterMenu {
+        height: fit-content;
+        width: 420px;
+    }
+
+    .pageTactic .tactic {
+        height: 700px;
+        width: 450px;
+
+        background-image: url(../../../Image/Pictures/Pitch.jpg);
+        background-size: 450px 700px;
+
+        display: flex;
+
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+        background-color: none;
+    }
 
 }
 
