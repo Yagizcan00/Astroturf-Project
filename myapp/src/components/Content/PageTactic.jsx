@@ -388,7 +388,7 @@ export default function PageTactic() {
                 </div>
 
                 <div className="downloadButton">
-                    <button style={{ backgroundColor: backgroundColorOne, color: downloadButtonColor }} onClick={downloadScreenshot}>Taktiği indir</button>
+                    <button style={{ backgroundColor: backgroundColorOne, color: colorOne === "Beyaz" ? "black" : "white" }} onClick={downloadScreenshot}>Taktiği indir</button>
                 </div>
             </div>
 
