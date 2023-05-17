@@ -44,10 +44,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -96,10 +96,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -148,10 +148,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -200,10 +200,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -252,10 +252,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -304,10 +304,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -356,10 +356,10 @@
 
     cursor: text;
 
-    border-radius: 11px;
+    border-radius: 33px;
 
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 120%;
+    font-weight: 600;
 
     color: black;
 }
@@ -415,10 +415,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -468,10 +468,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -521,10 +521,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -574,10 +574,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -627,10 +627,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -680,10 +680,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -733,10 +733,10 @@
 
         cursor: text;
 
-        border-radius: 11px;
+        border-radius: 33px;
 
         font-size: 100%;
-        font-weight: 500;
+        font-weight: 600;
 
         color: black;
     }
@@ -9337,6 +9337,7 @@
 
 /* 1-0-5 Mobile */
 @media only screen and (max-width: 420px) {
+
     /* *********************** */
     /* 1-0-5 */
     /* *********************** */

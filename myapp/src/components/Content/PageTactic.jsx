@@ -1,17 +1,12 @@
 import React, { useContext, createRef } from "react";
 import { useScreenshot, createFileName } from 'use-react-screenshot'
-
 import ContentContext from "../../context/ContentContext";
-
 import "../../style/Content/PageTactic/PageTactic.css"
 import "../../style/Content/PageTactic/Tactics/Formations.css"
-
 import Draggable from "react-draggable";
 
 
 export default function PageTactic() {
-
-
 
 
     // States coming from Context file.
@@ -42,9 +37,6 @@ export default function PageTactic() {
         display: "none"
     }
 
-
-
-
     // Formations array.
     const formations = [
         "5-0-1",
@@ -65,8 +57,6 @@ export default function PageTactic() {
     function handleFormationClick(formation) {
         setActiveFormation(formation);
     }
-
-
 
 
     // Color array.
@@ -217,11 +207,7 @@ export default function PageTactic() {
     }
 
 
-
-
     const numberColor = (colorOne === "Siyah" || colorTwo === "Siyah") ? "rgb(80,80,80)" : "black"
-    const downloadButtonColor = colorOne === "Siyah" ? "rgb(80,80,80)" : "white"
-
 
 
     // Download the div's screenshot part
@@ -237,8 +223,6 @@ export default function PageTactic() {
         a.click();
     };
     const downloadScreenshot = () => takeScreenShot(ref.current).then(download);
-
-
 
 
     return (
@@ -304,6 +288,7 @@ export default function PageTactic() {
             </div>
 
             <div name="tactic screen part">
+
                 <div className="tactic" ref={ref}>
 
                     {/* Players */}
@@ -390,8 +375,8 @@ export default function PageTactic() {
                 <div className="downloadButton">
                     <button style={{ backgroundColor: backgroundColorOne, color: colorOne === "Beyaz" ? "black" : "white" }} onClick={downloadScreenshot}>Taktiği indir</button>
                 </div>
-            </div>
 
+            </div>
         </div>
     )
 }
