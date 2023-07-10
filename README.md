@@ -1,4 +1,4 @@
-# Astroturf-Project
+# Seven-to-Seven
 
 -> https://seventosevenold.netlify.app/
 
